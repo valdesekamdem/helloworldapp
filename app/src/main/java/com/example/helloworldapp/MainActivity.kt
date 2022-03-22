@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
     private fun showHelloDialog() {
         val dialog = AlertDialog.Builder(this)
             .setTitle("Hello World")
-            .setMessage("Just want to wanted to see if you will click.\nHave a good day!")
+            .setMessage("Just wanted to see if you will click.\nHave a good day!")
             .setNeutralButton("Close") { _, _ -> }
             .create()
         dialog.show()
